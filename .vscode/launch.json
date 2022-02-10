@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 3Processes.txt Round Robin",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["${workspaceFolder}/process_patterns/3processes.txt", "1", "--stdout"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: 3processes SJF",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["${workspaceFolder}/process_patterns/3processes.txt", "2", "--stdout"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: 3processes-assignment.txt FCFS",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["${workspaceFolder}/process_patterns/3processes-assignment.txt", "0", "--stdout"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
